@@ -1,5 +1,3 @@
-.slots-container {
-}
 .calendar-view {
   display: flex;
   justify-content: center;
@@ -9,7 +7,7 @@
 .right-container {
   padding: 40px;
   background-color: white;
-  height: 452px;
+  /* height: 452px; */
   transition: 0.25s;
 }
 
@@ -20,6 +18,7 @@
 
 hr {
   margin: 20px 0px;
+  width: 95%;
 }
 
 .variants-container select {
@@ -27,7 +26,6 @@ hr {
   width: 95%;
   padding: 8px 12px;
   border-radius: 10px;
-  border: 1px solid var(--primary-color);
   background-color: white;
   color: var(--primary-color);
   font-size: 14px;
@@ -57,12 +55,10 @@ hr {
 
 .selected-date {
   display: inline-block;
-  /* white-space: nowrap; */
 }
 
 @media (max-width: 850px) {
   .right-container {
-    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -74,7 +70,6 @@ hr {
 
 @media (max-width: 768px) {
   .right-container {
-    /* display: flex; */
     width: 100%;
     flex-direction: column;
     align-items: center;

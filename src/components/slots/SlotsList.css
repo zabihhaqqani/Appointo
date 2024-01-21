@@ -5,7 +5,6 @@
   position: relative;
   align-items: center;
   width: 380px;
-  /* transition: 0.25s; */
 }
 
 .scrollbars {
@@ -63,21 +62,11 @@
 @media (max-width: 850px) {
   .time-slots-container {
     width: 100%;
-  /* transition: 0.25s; */
-
   }
 }
 
-
 @media (max-width: 768px) {
-    .time-slots-container {
-      /* width: 300px; */
-      background-color: #f9fafbb2;
-    /* transition: 0.25s; */
-  
-    }
-    .slots{
-        
-    }
+  .time-slots-container {
+    background-color: #f9fafbb2;
   }
-  
+}

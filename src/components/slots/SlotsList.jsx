@@ -23,15 +23,9 @@ const SlotsList = () => {
       ) : slots?.slots?.length > 0 ? (
         <Scrollbars style={{
             width: "100%",
-            // width:"fit-content",
-            // width:"25rem",
-            // maxWidth: 380,
             height: 250,
-            // overflowY: 'auto',
             scrollbarWidth: 'thin',
             scrollbarColor: 'dark',
-           
-            // Add more media queries as needed
           }}>
           <div className="slots">
             {slots.slots.map((slot, index) => (

@@ -1,6 +1,6 @@
 .calendar-view-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+  grid-template-columns: 1fr 1fr;
 }
 
 .container {
@@ -10,6 +10,8 @@
   align-items: center;
   position: relative;
   margin-top: 20px;
+  margin: 0rem 1rem;
+
 }
 
 .calendar-view-container {
@@ -44,5 +46,6 @@
 
   .container {
     margin-top: 55px;
+    margin: 0rem;
   }
 }
