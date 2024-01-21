@@ -1,9 +1,9 @@
 import { useDataContext } from "../../context/Context";
-import moment from "moment";
-import CircleCheck from "../../assets/iconComponents/CircleCheck";
 import { Scrollbars } from "react-custom-scrollbars";
 import { Oval } from "react-loader-spinner";
+
 import "./SlotsList.css";
+import { displaySlots } from "../../utils/displaySlots";
 
 const SlotsList = () => {
   const { slots, selectedTimeSlot, dispatch, loading } = useDataContext();
@@ -27,32 +27,15 @@ const SlotsList = () => {
             scrollbarWidth: 'thin',
             scrollbarColor: 'dark',
           }}>
-          <div className="slots">
-            {slots.slots.map((slot, index) => (
-              <button
-                id={selectedTimeSlot === index ? "selected-slot-btn" : ""}
-                onClick={() =>
-                  dispatch({
-                    type: "SLOT_TIME_SELECTED",
-                    payload: { slot, index },
-                  })
-                }
-                key={index}
-              >
-                <span>
-                  {moment(slot.start_time).format("h:mm a")} -{" "}
-                  {moment(slot.end_time).format("h:mm a")}
-                </span>
-                {selectedTimeSlot === index && <CircleCheck />}
-              </button>
-            ))}
-          </div>
+          {displaySlots(slots, selectedTimeSlot, dispatch)}
         </Scrollbars>
       ) : (
         !loading && <p className="no-slots">No Slots available for the day</p>
       )}
+
     </div>
   );
 };
 
 export default SlotsList;
+

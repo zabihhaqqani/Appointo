@@ -30,7 +30,7 @@
   border-radius: 10px;
   border: 1px solid var(--primary-color);
   background-color: white;
-  color: var(--Primary-Color, #378760);
+  color: var(--primary-color);
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -55,7 +55,7 @@
 }
 
 #selected-slot-btn span {
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease-in-out;
   transform: translateX(-10px);
 }
 
@@ -68,5 +68,10 @@
 @media (max-width: 768px) {
   .time-slots-container {
     background-color: #f9fafbb2;
+  }
+
+  .time-slots-container button{
+    width: 100%;
+    /* margin-left: 0.5rem; */
   }
 }

@@ -17,12 +17,14 @@ export const DataProvider = ({ children }) => {
 
   const formattedDate = moment(state?.selectedDate).format("YYYY-MM-DD");
 
+  // slots selected by user
   const slots = [...state?.data]?.find((dates) => dates.date === formattedDate);
 
   useEffect(() => {
     fetchData(dispatch);
   }, [dispatch]);
 
+  console.log(formattedDate)
   return (
     <DataContext.Provider value={{ ...state, dispatch, slots }}>
       {children}

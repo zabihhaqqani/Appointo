@@ -7,8 +7,8 @@
 .right-container {
   padding: 40px;
   background-color: white;
-  /* height: 452px; */
   transition: 0.25s;
+  height: 452px;
 }
 
 .variants-container {
@@ -64,7 +64,6 @@ hr {
     justify-content: center;
     transition: 0.25s;
     padding: 20px;
-
   }
 }
 
@@ -77,6 +76,17 @@ hr {
     transition: 0.25s;
     padding: 20px;
     background-color: #f9fafbb2;
-    
+    text-align: center;
+    /* margin-left: 0.5rem; */
+  }
+
+  .variants-container select,
+  option {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
   }
 }

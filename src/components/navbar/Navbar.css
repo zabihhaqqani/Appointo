@@ -49,8 +49,7 @@
 }
 
 .share-btn:hover {
-  background-color: var(--primary-color);
-  color: white;
+  box-shadow: rgba(149, 157, 165, 0.123) 0px 8px 24px;
   transition: 0.25s;
 }
 

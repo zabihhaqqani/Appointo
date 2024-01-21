@@ -133,7 +133,7 @@
   }
 
   .react-calendar {
-    width: 95%;
+    width: 100%;
   }
 
   .react-calendar__navigation__next-button,
@@ -152,5 +152,11 @@
 
   .left-container h2 {
     font-size: 20px;
+  }
+
+  .left-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
 }

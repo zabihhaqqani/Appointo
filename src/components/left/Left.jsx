@@ -17,8 +17,8 @@ const Left = () => {
       </div>
       <Calendar
         onChange={(date) => {
-          dispatch({ type: "SET_DATE", payload: date });
-          dispatch({ type: "SLOT_TIME_SELECTED", payload: "" });
+          dispatch({ type: "SET_SELECTED_DATE", payload: date });
+          dispatch({ type: "SELECT_TIME_SLOT", payload: "" });
         }}
       />
     </div>
