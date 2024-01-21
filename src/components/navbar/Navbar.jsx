@@ -10,19 +10,21 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <img src={logo} alt="logo" className="logo" />
+
       <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
-        {/* <i className={`fa-solid fa-${isOpen ? "x" : "bars"} fa-lg`}></i> */}
+        <i className={`fa-solid fa-${isOpen ? "x" : "bars"} fa-lg`}></i>
       </div>
+
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
         <a href="/" aria-label="Go to Home">
           Menu
           <DownArrow />
         </a>
-        <a href="/contact" aria-label="Contact Us">
+        <a href="/" aria-label="Contact Us">
           Contact us
         </a>
         <button className="share-btn" aria-label="Share Link">
-          <ExternalLinkIcon /> Share Link
+          <ExternalLinkIcon color=""/> Share Link
         </button>
       </div>
     </nav>

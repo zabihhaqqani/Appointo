@@ -1,0 +1,83 @@
+.time-slots-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  align-items: center;
+  width: 380px;
+  /* transition: 0.25s; */
+}
+
+.scrollbars {
+  width: 380px;
+  height: 250px;
+}
+
+.slots {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.loader {
+  position: absolute;
+  top: 50px;
+}
+
+.time-slots-container button {
+  height: 48px;
+  width: 95%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  color: var(--Primary-Color, #378760);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.25s ease, color 0.25s ease, border 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.time-slots-container button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.123);
+}
+
+#selected-slot-btn {
+  color: white;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 22px;
+}
+
+#selected-slot-btn span {
+  transition: transform 0.3s ease;
+  transform: translateX(-10px);
+}
+
+@media (max-width: 850px) {
+  .time-slots-container {
+    width: 100%;
+  /* transition: 0.25s; */
+
+  }
+}
+
+
+@media (max-width: 768px) {
+    .time-slots-container {
+      /* width: 300px; */
+      background-color: #f9fafbb2;
+    /* transition: 0.25s; */
+  
+    }
+    .slots{
+        
+    }
+  }
+  
