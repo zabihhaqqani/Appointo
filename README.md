@@ -1,71 +1,70 @@
-# Getting Started with Create React App
+# Appointo: Book Appointment Slots from a Calendar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Appointo](https://appointo-calendar.netlify.app/) is a React-based project that allows users to book appointment slots conveniently from a responsive calendar. With a clean and intuitive design, it caters to all screen sizes and ensures a smooth booking experience. The project incorporates robust error handling and employs various libraries to enhance functionality.
 
-## Available Scripts
+### Desktop View
+![image](https://github.com/zabihhaqqani/Appointo/assets/53895282/c7142edf-5fc8-47bb-9a53-66e3b88da960)
 
-In the project directory, you can run:
+### Tablet View
+![iPad-1705826407011](https://github.com/zabihhaqqani/Appointo/assets/53895282/4e1effd3-54fa-4df7-b0de-90a032aeb907)
 
-### `npm start`
+### Mobile View
+![image](https://github.com/zabihhaqqani/Appointo/assets/53895282/26fd80d9-c30b-4edd-9450-926962d6dddd)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Fork this Project:**
+   - Start by forking the project to your GitHub account.
 
-### `npm test`
+2. **Clone the Project:**
+   - Copy the project URL from your forked repository.
+   - Open your terminal and use the following command:
+     ```bash
+     git clone yourURL
+     ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Navigate to Project Directory:**
+   - Move to the Appointo directory using the command:
+     ```bash
+     cd Appointo
+     ```
 
-### `npm run build`
+4. **Install Dependencies:**
+   - Run the following command to install the required dependencies:
+     ```bash
+     npm install react-calendar axios moment react-loader-spinner react-toastify react-custom-scroll
+     ```
+ - **Disclaimer:** If you encounter issues installing the libraries, add `--force` at the end of the command:
+     ```bash
+     npm install react-calendar axios moment react-loader-spinner react-toastify react-custom-scroll --force
+     ```
+5. **Start the Project:**
+   - Execute the following command to launch the project locally:
+     ```bash
+     npm start
+     ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Now you should be able to access and explore the project locally.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
+- Responsive design for seamless user experience on all screen sizes.
+- Effective error handling for a smooth user interaction.
+- Integration of libraries for enhanced functionality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies and libraries used🛠
+- **React:** Frontend framework.
+- **react-calendar:** Manages and displays calendar components.
+- **axios:** Performs HTTP requests for data retrieval and submission.
+- ** moment.js:** Simplifies date and time manipulation.
+- **react-loader-spinner:** Displays loaders for better user feedback.
+- **react-toastify:** Provides user-friendly notifications.
+- **react-custom-scroll:** Implements custom scrolling for improved navigation.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ <h3 align="left">Connect with me:</h3>
+<a href="https://twitter.com/zabih01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="zabih01" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/zabih-haqqani-7ab187191" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="zabih-haqqani-7ab187191" height="30" width="40" /></a>
+<a href="https://discord.gg/zabih#1869" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="zabih#1869" height="40" width="45" /></a>
+</p>
+<p align="left">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Appointo
