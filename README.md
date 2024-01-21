@@ -55,7 +55,7 @@ Now you should be able to access and explore the project locally.
 - **React:** Frontend framework.
 - **react-calendar:** Manages and displays calendar components.
 - **axios:** Performs HTTP requests for data retrieval and submission.
-- ** moment.js:** Simplifies date and time manipulation.
+- **moment.js:** Simplifies date and time manipulation.
 - **react-loader-spinner:** Displays loaders for better user feedback.
 - **react-toastify:** Provides user-friendly notifications.
 - **react-custom-scroll:** Implements custom scrolling for improved navigation.
