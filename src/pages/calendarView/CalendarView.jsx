@@ -1,6 +1,6 @@
 import Footer from "../../components/footer/Footer";
 import Left from "../../components/left/Left";
-import Right from "../../components/slots/Right";
+import Right from "../../components/right/Right";
 
 import "./CalendarView.css";
 

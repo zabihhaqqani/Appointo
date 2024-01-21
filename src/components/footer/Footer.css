@@ -1,14 +1,15 @@
 .footer {
   display: flex;
-  padding: 15px 30px;
   justify-content: space-between;
   align-items: center;
-  background: var(--Primary-Color, #378760);
+  padding: 15px 30px;
+  background: var(--primary-color);
   z-index: 99;
   width: 100%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
 
 .footer button {
   display: flex;
@@ -23,7 +24,6 @@
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
-  
   border: 1px solid var(--primary-color);
 }
 
@@ -41,7 +41,6 @@
   font-weight: 410;
   text-decoration-line: underline;
 }
-
 
 @media (max-width: 768px) {
   .footer {

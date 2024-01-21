@@ -1,7 +1,7 @@
 .left-container {
   display: flex;
-  padding: 40px;
   flex-direction: column;
+  padding: 40px;
   gap: 20px;
   background: #ebebf0;
   align-self: stretch;
