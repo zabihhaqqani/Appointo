@@ -1,7 +1,9 @@
+import "./Bands.css"
+
 const RightBands = () => {
   return (
     <div>
-      <div style={{ position: "fixed", right: "0px", top: "400px" }}>
+      <div className="right rband1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="203"
@@ -12,7 +14,7 @@ const RightBands = () => {
           <path d="M0 52.517L420 0V64L0 116.517V52.517Z" fill="#378760" />
         </svg>
       </div>
-      <div style={{ position: "fixed", right: "0px", top: "450px" }}>
+      <div className="right rband2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="286"
@@ -23,7 +25,7 @@ const RightBands = () => {
           <path d="M0 76.8083L612 0V64L0 140.808V76.8083Z" fill="#CCE7E0" />
         </svg>
       </div>
-      <div style={{ position: "fixed", right: "0px", top: "522px" }}>
+      <div className="right rband3">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="166"

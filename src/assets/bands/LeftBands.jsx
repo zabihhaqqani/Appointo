@@ -1,7 +1,9 @@
+import "./Bands.css"
+
 const LeftBands = () => {
   return (
     <div>
-      <div style={{ position: "fixed", left: "0px", top: "660px" }}>
+      <div className="left-band1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="382"
@@ -12,7 +14,7 @@ const LeftBands = () => {
           <path d="M-38 52.517L382 0V64L-38 116.517V52.517Z" fill="#CCE7E0" />
         </svg>
       </div>
-      <div style={{ position: "fixed", left: "0px", top: "740px" }}>
+      <div className="left-band2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="230"

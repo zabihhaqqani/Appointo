@@ -1,0 +1,28 @@
+.left-band1 {
+  position: fixed;
+  left: 0;
+  top: 660px;
+}
+
+.left-band2 {
+  position: fixed;
+  left: 0;
+  top: 740px;
+}
+
+.right {
+  position: fixed;
+  right: 0;
+}
+
+.rband1 {
+  top: 400px;
+}
+
+.rband2 {
+  top: 450px;
+}
+
+.rband3 {
+  top: 522px;
+}
