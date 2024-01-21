@@ -24,7 +24,6 @@ export const DataProvider = ({ children }) => {
     fetchData(dispatch);
   }, [dispatch]);
 
-  console.log(formattedDate)
   return (
     <DataContext.Provider value={{ ...state, dispatch, slots }}>
       {children}
