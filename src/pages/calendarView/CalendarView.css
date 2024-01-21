@@ -1,0 +1,48 @@
+.calendar-view-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.calendar-view-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "column1 column2"
+    "footer footer";
+}
+.navbar {
+  grid-area: navbar;
+}
+
+.left-container {
+  grid-area: column1;
+}
+
+.right-container {
+  grid-area: column2;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+@media (max-width: 768px) {
+  .calendar-view-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    margin-top: 55px;
+  }
+}
