@@ -68,6 +68,8 @@
 @media (max-width: 768px) {
   .navbar {
     padding: 12px 10px;
+  position: fixed;
+
   }
   .logo {
     cursor: pointer;
@@ -97,5 +99,11 @@
 
   .menu-icon i {
     display: block;
+  }
+}
+
+@media (max-height:750px){
+  .navbar{
+    position: static;
   }
 }

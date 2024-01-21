@@ -21,7 +21,7 @@ const Right = () => {
         <label className="variant-label">SELECT FROM VARIANTS</label>
         <select name="" id="">
           {uniqueVariantsArray?.map((variation, index) => (
-            <option key={index}  value={variation}>
+            <option key={index} value={variation} >
               {variation} min
             </option>
           ))}

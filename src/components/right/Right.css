@@ -80,8 +80,8 @@ hr {
     /* margin-left: 0.5rem; */
   }
 
-  .variants-container select,
-  option {
+  .variants-container select
+   {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -89,4 +89,6 @@ hr {
     width: 100%;
     text-align: center;
   }
+
+  
 }
