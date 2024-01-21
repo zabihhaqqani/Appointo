@@ -23,14 +23,13 @@
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
+  
   border: 1px solid var(--primary-color);
 }
 
 .footer p {
   color: white;
-  font-family: Poppins;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
   cursor: pointer;
@@ -39,17 +38,13 @@
 .footer p span {
   color: var(--White, #fff);
   font-size: 12px;
-  font-weight: 450;
+  font-weight: 410;
   text-decoration-line: underline;
 }
 
-.footer button span:hover {
-   transition: transform 0.3s ease-in-out;
-  transform: translateX(10px);
-}
+
 @media (max-width: 768px) {
   .footer {
-    /* width: 100vw; */
     border-radius: 0;
     position: static;
   }
