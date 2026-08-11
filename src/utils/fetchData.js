@@ -6,7 +6,7 @@ export const fetchData = async (dispatch) => {
 
   try {
     const response = await axios.get(
-      "https://app.appointo.me/scripttag/mock_timeslots?start_date=2024-01-20&end_date=2024-01-30"
+      "https://app.appointo.me/scripttag/mock_timeslots"
     );
     dispatch({ type: "FETCH_DATA_SUCCESS", payload: response.data });
     dispatch({ type: "SET_LOADING", payload: false });
